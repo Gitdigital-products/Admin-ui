@@ -55,4 +55,32 @@ The built files will be in the dist directory.
 
 Project Structure
 
-# Admin
+```
+src/
+├── components/     # Reusable components
+├── pages/         # Page components
+├── hooks/         # Custom React hooks
+├── types/         # TypeScript definitions
+├── utils/         # Utility functions
+└── App.tsx        # Main application component
+```
+
+Available Scripts
+
+· npm run dev - Start development server
+· npm run build - Build for production
+· npm run lint - Run ESLint
+· npm run preview - Preview production build
+
+Environment Variables
+
+Copy .env.example to .env and configure:
+
+```env
+VITE_API_URL=http://localhost:3001
+VITE_APP_TITLE=GitDigital Admin
+```
+
+License
+
+Proprietary - Internal Use Only

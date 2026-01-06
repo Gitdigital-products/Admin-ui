@@ -1,0 +1,50 @@
+gitdigital-admin-ui/
+├── public/
+│   ├── favicon.ico
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Sidebar.tsx
+│   │   │   ├── TopBar.tsx
+│   │   │   └── Layout.tsx
+│   │   ├── operations/
+│   │   │   ├── UserManagement.tsx
+│   │   │   ├── SystemLogs.tsx
+│   │   │   └── DashboardStats.tsx
+│   │   ├── compliance/
+│   │   │   ├── ReviewQueue.tsx
+│   │   │   ├── AuditLog.tsx
+│   │   │   └── PolicyManager.tsx
+│   │   ├── overrides/
+│   │   │   ├── PermissionOverrides.tsx
+│   │   │   ├── EmergencyAccess.tsx
+│   │   │   └── OverrideAudit.tsx
+│   │   └── shared/
+│   │       ├── DataTable.tsx
+│   │       ├── StatusBadge.tsx
+│   │       └── ConfirmationModal.tsx
+│   ├── pages/
+│   │   ├── Dashboard.tsx
+│   │   ├── InternalOps.tsx
+│   │   ├── ComplianceReview.tsx
+│   │   └── Overrides.tsx
+│   ├── hooks/
+│   │   ├── useAuth.ts
+│   │   └── useApi.ts
+│   ├── types/
+│   │   └── index.ts
+│   ├── utils/
+│   │   ├── constants.ts
+│   │   └── helpers.ts
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── index.css
+│   └── vite-env.d.ts
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── tailwind.config.js
+├── postcss.config.js
+├── README.md
+└── .env.example
